@@ -1,0 +1,32 @@
+.list-group
+{
+    list-style: none;
+}
+
+.container{
+  height: 100%;
+  color: blue;
+}
+
+.list-item
+{
+    margin: 20px 0px;
+    color: black;
+}
+.list-item
+{
+    padding: 17px 25px;
+    color:black;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+.list-item:hover
+{
+    background-color: #53535b !important;
+}
+li.list-item.active
+{
+    background-color: #53535b !important;
+}

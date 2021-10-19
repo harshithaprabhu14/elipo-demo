@@ -30,10 +30,9 @@
               "src/assets"
             ],
             "styles": [
-              "D:/My project/ELIPOdemo/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/custom-theme.scss",
+              "C:/Users/mahes/OneDrive/Desktop/demo2/elipo-demo/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-             
-
             ],
             "scripts": []
           },
