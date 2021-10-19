@@ -1,0 +1,16 @@
+<div class="header-cls">
+    <app-header></app-header>
+</div>
+<div class="disp-flex">
+    <div [ngClass]="service.hideSideNav?'collapsed-side-nav':'side-nav'">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div [ngClass]="service.hideSideNav?'expanded-main-container':'main-container'">
+        <div class="overlay" *ngIf="service.isLoader">
+            <div class="overlay__inner">
+                <div class="overlay__content"><span class="spinner"></span></div>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
