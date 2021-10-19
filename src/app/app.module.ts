@@ -11,6 +11,8 @@ import { LandingComponent } from './layouts/landing.component';
 import { OverviewComponent } from './modules/overview/overview.component';
 import { MastersComponent } from './modules/masters/masters.component';
 import { AssignRoleComponent } from './modules/assign-role/assign-role.component';
+import { AddNewGroupComponent } from './modules/groups/add-new-group.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { AssignRoleComponent } from './modules/assign-role/assign-role.component
     LandingComponent,
     OverviewComponent,
     MastersComponent,
-    AssignRoleComponent
+    AssignRoleComponent,
+    AddNewGroupComponent
   ],
   imports: [
     BrowserModule,
