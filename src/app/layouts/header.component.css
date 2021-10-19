@@ -1,0 +1,116 @@
+.header {
+    height: 80px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  .image1 {
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 28px;
+    width: 99px;
+    max-width: 40%;
+    opacity: 1;
+  }
+  
+  .image2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 99px;
+    /* max-width: 40%; */
+    opacity: 1;
+    /* float:right; */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 115px 38px 24px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 180;
+    height: 36px;
+    float: left;
+    /* padding-left: 0px; */
+    /* padding-right: 50px; */
+    opacity: 1;
+  }
+  .grid-item {
+    background-color: #ffffff;
+  }
+  .user1 {
+    width: 100px;
+    font: bold 16px/22px sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: left;
+    padding: 0px;
+    display: inline-block;
+    opacity: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+  
+  }
+  .user2 {
+    width: 100% !important;
+    font: 400 12px/14px sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: left;
+    padding: 0px;
+    margin-top: -1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 1;
+  }
+  .image3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    max-width: 38px;
+    text-align: left;
+    background: #70d0f6 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .arrow-css {
+    border: 2px solid #1b4994;
+    border-width: 0 0 2px 2px;
+    width: 9px;
+    height: 9px;
+    line-height: 0;
+    font-size: 0;
+    display: inline-block;
+    margin-left: 8px;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  ::ng-deep .header-txt .mat-form-field-flex {
+    background: transparent !important;
+    border: none !important;
+    width: 80% !important;
+  }
+  @media only screen and (max-width:768px)
+  {
+    .grid-container {
+      margin-left: 0px !important;
+      grid-template-columns: 90px 38px 24px !important;
+    }
+    .image1 {
+      height: 70%;
+      max-width: 60%;
+      width: 60%;
+    }
+  
+  }
+  

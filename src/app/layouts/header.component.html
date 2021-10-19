@@ -1,0 +1,33 @@
+<div class="header">
+    <div class="col-12 no_pad " style="display: flex">
+        <div class="no_pad" [ngClass]="isMobile?'col-6':'col-9'">
+            <img class="image1" src="assets/images/elipologo.png" alt="logo" display="inline-block">
+        </div>
+       
+        <div class="no_pad grid-container" [ngClass]="isMobile?'col-6':'col-1.5'">
+                <div class="grid-item hide">
+                    <a class="user1"  title="{{userName}}">{{userName}}</a>
+                    <a class="user2" title="{{userRole}}" *ngIf="grpname == 'null'">{{userRole}}</a>
+                    <a class="user2" title="{{grpname}}" *ngIf="grpname !== 'null'">{{grpname}}</a>
+                </div>
+                <div class="grid-item hide2">
+                    <img class="image3" [src]="defaultImage" alt="logo">
+                </div> 
+                <div class="grid-item header-txt">
+                    <!-- <mat-form-field>
+                        <mat-select disableOptionCentering panelClass="myPanelClass" [(ngModel)]="selectedValue">
+                            <mat-option value="edit" (click)="submit()">Edit Profile
+                            </mat-option>
+                            <mat-option value="Support" (click)="viewDoc()">Support
+                            </mat-option>
+                            <mat-option value="logout" (click)="submit()">Logout
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field> -->
+                </div>
+        </div>
+        <div class="col-1 no_pad" *ngIf="!isMobile">
+            <img class="image2" [src]="" alt="logo" display="inline-block">
+        </div>
+    </div>
+</div>
