@@ -14,12 +14,24 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header.component';
 import { SideNavComponent } from './layouts/side-nav.component';
 
+import { LandingComponent } from './layouts/landing.component';
+import { OverviewComponent } from './modules/overview/overview.component';
+import { MastersComponent } from './modules/masters/masters.component';
+import { AssignRoleComponent } from './modules/assign-role/assign-role.component';
+import { AddNewGroupComponent } from './modules/groups/add-new-group.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    
+
+    LandingComponent,
+    OverviewComponent,
+    MastersComponent,
+    AssignRoleComponent,
+    AddNewGroupComponent
+
   ],
   imports: [
     BrowserModule,

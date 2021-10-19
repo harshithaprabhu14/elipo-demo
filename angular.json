@@ -31,11 +31,15 @@
             ],
             "styles": [
 <<<<<<< HEAD
+<<<<<<< HEAD
               "src/custom-theme.scss",
               "C:/Users/mahes/OneDrive/Desktop/demo2/elipo-demo/node_modules/bootstrap/dist/css/bootstrap.min.css",
 =======
               "C:/Users/peol/Desktop/elipo/elipo-demo/node_modules/bootstrap/dist/css/bootstrap.min.css",
 >>>>>>> bc41fddf54331d1ab3d4098791fc09a8fa0eaba9
+=======
+              "D:/elipo2/elipo-demo/node_modules/bootstrap/dist/css/bootstrap.min.css",
+>>>>>>> f9d1831e1f39438aa98de15d95abf189276ce0ea
               "src/styles.css"
             ],
             "scripts": []
