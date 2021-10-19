@@ -10,7 +10,7 @@ import { SideNavComponent } from './layouts/side-nav.component';
 import { LandingComponent } from './layouts/landing.component';
 import { OverviewComponent } from './modules/overview/overview.component';
 import { MastersComponent } from './modules/masters/masters.component';
-import { AssignRoleComponent } from './modules/assign-role.component';
+import { AssignRoleComponent } from './modules/assign-role/assign-role.component';
 
 @NgModule({
   declarations: [
