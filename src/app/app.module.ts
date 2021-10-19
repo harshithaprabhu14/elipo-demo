@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header.component';
 import { SideNavComponent } from './layouts/side-nav.component';
 import { LandingComponent } from './layouts/landing.component';
+import { OverviewComponent } from './modules/overview/overview.component';
+import { MastersComponent } from './modules/masters/masters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    LandingComponent
+    LandingComponent,
+    OverviewComponent,
+    MastersComponent
   ],
   imports: [
     BrowserModule,
